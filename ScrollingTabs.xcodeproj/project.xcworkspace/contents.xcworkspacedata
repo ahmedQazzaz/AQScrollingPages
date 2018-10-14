@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ScrollingTaps.xcodeproj">
+      location = "self:/Users/ahmedqazzaz/Documents/ScrollingTaps/ScrollingTabs.xcodeproj">
    </FileRef>
 </Workspace>

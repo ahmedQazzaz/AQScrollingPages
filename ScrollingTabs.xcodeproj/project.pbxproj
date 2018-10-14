@@ -12,16 +12,23 @@
 		77423DEC2171301C00516AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77423DEA2171301C00516AA0 /* Main.storyboard */; };
 		77423DEE2171301D00516AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77423DED2171301D00516AA0 /* Assets.xcassets */; };
 		77423DF12171301D00516AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77423DEF2171301D00516AA0 /* LaunchScreen.storyboard */; };
+		77423DFA2171305100516AA0 /* AQScrollingTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77423DF92171305100516AA0 /* AQScrollingTabs.swift */; };
+		77D329B221717A5A00E8D03E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D329B421717A5A00E8D03E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		77423DE32171301C00516AA0 /* ScrollingTaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingTaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77423DE32171301C00516AA0 /* ScrollingTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77423DE62171301C00516AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77423DE82171301C00516AA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77423DEB2171301C00516AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77423DED2171301D00516AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77423DF02171301D00516AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77423DF22171301D00516AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77423DF92171305100516AA0 /* AQScrollingTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQScrollingTabs.swift; sourceTree = "<group>"; };
+		77423DFB217176F000516AA0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		77423DFC217176F100516AA0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		77D329B321717A5A00E8D03E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77D329B521717A5D00E8D03E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +53,7 @@
 		77423DE42171301C00516AA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77423DE32171301C00516AA0 /* ScrollingTaps.app */,
+				77423DE32171301C00516AA0 /* ScrollingTabs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +61,32 @@
 		77423DE52171301C00516AA0 /* ScrollingTaps */ = {
 			isa = PBXGroup;
 			children = (
+				77423DF82171302D00516AA0 /* ScrollingTabs */,
 				77423DE62171301C00516AA0 /* AppDelegate.swift */,
 				77423DE82171301C00516AA0 /* ViewController.swift */,
 				77423DEA2171301C00516AA0 /* Main.storyboard */,
 				77423DED2171301D00516AA0 /* Assets.xcassets */,
 				77423DEF2171301D00516AA0 /* LaunchScreen.storyboard */,
 				77423DF22171301D00516AA0 /* Info.plist */,
+				77D329B421717A5A00E8D03E /* Localizable.strings */,
 			);
 			path = ScrollingTaps;
+			sourceTree = "<group>";
+		};
+		77423DF82171302D00516AA0 /* ScrollingTabs */ = {
+			isa = PBXGroup;
+			children = (
+				77423DF92171305100516AA0 /* AQScrollingTabs.swift */,
+			);
+			path = ScrollingTabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77423DE22171301C00516AA0 /* ScrollingTaps */ = {
+		77423DE22171301C00516AA0 /* ScrollingTabs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77423DF52171301D00516AA0 /* Build configuration list for PBXNativeTarget "ScrollingTaps" */;
+			buildConfigurationList = 77423DF52171301D00516AA0 /* Build configuration list for PBXNativeTarget "ScrollingTabs" */;
 			buildPhases = (
 				77423DDF2171301C00516AA0 /* Sources */,
 				77423DE02171301C00516AA0 /* Frameworks */,
@@ -79,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = ScrollingTaps;
+			name = ScrollingTabs;
 			productName = ScrollingTaps;
-			productReference = 77423DE32171301C00516AA0 /* ScrollingTaps.app */;
+			productReference = 77423DE32171301C00516AA0 /* ScrollingTabs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,20 +116,21 @@
 					};
 				};
 			};
-			buildConfigurationList = 77423DDE2171301C00516AA0 /* Build configuration list for PBXProject "ScrollingTaps" */;
+			buildConfigurationList = 77423DDE2171301C00516AA0 /* Build configuration list for PBXProject "ScrollingTabs" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 77423DDA2171301C00516AA0;
 			productRefGroup = 77423DE42171301C00516AA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77423DE22171301C00516AA0 /* ScrollingTaps */,
+				77423DE22171301C00516AA0 /* ScrollingTabs */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77423DF12171301D00516AA0 /* LaunchScreen.storyboard in Resources */,
+				77D329B221717A5A00E8D03E /* Localizable.strings in Resources */,
 				77423DEE2171301D00516AA0 /* Assets.xcassets in Resources */,
 				77423DEC2171301C00516AA0 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +156,7 @@
 			files = (
 				77423DE92171301C00516AA0 /* ViewController.swift in Sources */,
 				77423DE72171301C00516AA0 /* AppDelegate.swift in Sources */,
+				77423DFA2171305100516AA0 /* AQScrollingTabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +167,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77423DEB2171301C00516AA0 /* Base */,
+				77423DFB217176F000516AA0 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +176,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				77423DF02171301D00516AA0 /* Base */,
+				77423DFC217176F100516AA0 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77D329B421717A5A00E8D03E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D329B321717A5A00E8D03E /* en */,
+				77D329B521717A5D00E8D03E /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +197,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -317,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77423DDE2171301C00516AA0 /* Build configuration list for PBXProject "ScrollingTaps" */ = {
+		77423DDE2171301C00516AA0 /* Build configuration list for PBXProject "ScrollingTabs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77423DF32171301D00516AA0 /* Debug */,
@@ -326,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77423DF52171301D00516AA0 /* Build configuration list for PBXNativeTarget "ScrollingTaps" */ = {
+		77423DF52171301D00516AA0 /* Build configuration list for PBXNativeTarget "ScrollingTabs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77423DF62171301D00516AA0 /* Debug */,
