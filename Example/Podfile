@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AQScrollingPages_Example' do
+  pod 'AQScrollingPages', :path => '../'
+
+  target 'AQScrollingPages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
