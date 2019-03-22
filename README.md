@@ -22,7 +22,7 @@ pod 'AQScrollingPages'
 
 ## Author
 
-ahmedQazzaz, ahmed.qazzaz@triphop.com
+ahmedQazzaz, aqazzaz2@hotmail.com
 
 ## License
 
