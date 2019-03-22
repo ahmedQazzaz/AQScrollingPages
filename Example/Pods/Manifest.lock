@@ -1,0 +1,16 @@
+PODS:
+  - AQScrollingPages (0.1.0)
+
+DEPENDENCIES:
+  - AQScrollingPages (from `../`)
+
+EXTERNAL SOURCES:
+  AQScrollingPages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AQScrollingPages: 53d686b3d92b6a870a35c2b2d08ef591f70189c7
+
+PODFILE CHECKSUM: c292c8c97f5aa563d2ff12e39ad512799d569c18
+
+COCOAPODS: 1.7.0.beta.2

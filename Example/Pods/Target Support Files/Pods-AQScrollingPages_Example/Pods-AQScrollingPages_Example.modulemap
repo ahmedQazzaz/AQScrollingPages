@@ -1,0 +1,6 @@
+framework module Pods_AQScrollingPages_Example {
+  umbrella header "Pods-AQScrollingPages_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

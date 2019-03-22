@@ -1,0 +1,6 @@
+framework module AQScrollingPages {
+  umbrella header "AQScrollingPages-umbrella.h"
+
+  export *
+  module * { export * }
+}
